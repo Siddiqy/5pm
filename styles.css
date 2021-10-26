@@ -1,0 +1,248 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+[class*="col-"] {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid red;
+}
+
+
+@media only screen and (min-width: 1201px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    div.topnav {
+        display: none;
+    }
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+    background-color: #F5FBF8;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#logo {
+    font-size: 2.5em;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+
+.navmenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navmenu ul > li > a {
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #515251;
+}
+
+.get-started {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 0px 20px;
+}
+
+.get-started button {
+    border-style: none;
+    border-radius: 25px;
+    padding: 14px 50px;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #02AD88;
+    color: #ffffff;
+}
+
+.hero-section {
+    padding: 50px 0px;
+    background-color: #F5FBF8;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px 0px;
+}
+
+.speech {
+    padding-left: 20px;
+}
+
+.speech h4 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #9E6AFE;
+    padding-bottom: 5px;
+}
+
+.speech h1 {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 50px;
+    color: #252A3A;
+    padding-bottom: 20px;
+}
+
+.speech p {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #252A3A;
+    padding-bottom: 30px;
+}
+
+.speech button {
+    padding: 14px 40px;
+    border-style: none;
+    border-radius: 25px;
+    background-color: #645CFE;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.section-title {
+    padding-left: 20px;
+}
+
+.section-title h2 {
+    font-size: 2.6em;
+    font-weight: 600;
+    line-height: 50px;
+    color: #252A3A;
+    text-transform: capitalize;
+}
+
+.section-title span {
+    color: #02AD88;
+}
+
+.section-des p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 25px;
+    color: #7b7b8c;
+}
+
+.features-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.features-detail {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #f0f0f0;
+    border-radius: 15px;
+    margin: 0px 20px;
+}
+
+.features-detail img {
+    margin: 40px 0px;
+    padding: 18px;
+    border-radius: 36px;
+    background-color: #CCEFE7;
+}
+
+.features-detail h4 {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #252A3A;
+}
+
+.features-detail p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 25px;
+    color: #7b7b8c;
+    padding: 20px;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
