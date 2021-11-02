@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container-margin {
+    width: 100%;
+    position: relative;
+    padding: 5rem 0;
+}
+
+.navbar {
+    padding: 30px;
+}
+
+.header-content, .navbar {
+    background-color: #F5FBF8;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.pricing-section {
+    background-image: linear-gradient(#EFFEF9, #F6F9F6, #FEF3F3); 
+}
+
+.feature-img {
+    padding: 15px;
+    border-radius: 30px;
+    color: #15b390;
+    background-color: #CCEFE7;
+}
+
+.im-check-mark-circle-o {
+    color: #15b390;
+    padding-right: 5px;
+ 
+}
+
+.im-x-mark-circle-o {
+    color: #fd5252;
+    padding-right: 5px;
+}
+
+.card {
+    border-radius: 15px !important;
+}
+
+.white-card {
+    color: #ffffff;
+}
+
+.price-list {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.price-list li {
+    padding: 5px 0px;
+}
+
+.pricing-detail p sup {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.green-btn {
+    border-style: none;
+    padding: 12px 40px;
+    border-radius: 25px;
+    background-color: #02AD88;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.free-trial {
+    border-style: none;
+    padding: 12px 40px;
+    border-radius: 25px;
+    background-color: #645CFE;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.links a {
+    display: block;
+    padding: 4px 0px;
+    text-decoration: none;
+    color: #252a3a;
+}
+
+footer {
+    background-color: #F9FAFF;
+}
+
+.compyright {
+    background-color: #ffffff;
+}
